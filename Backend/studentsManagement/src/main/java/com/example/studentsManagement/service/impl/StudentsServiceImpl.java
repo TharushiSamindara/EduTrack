@@ -14,7 +14,7 @@ public class StudentsServiceImpl implements StudentsService {
 
     @Override
     public String saveStudent(StudentsEntity studentsEntity) {
-        StudentsEntity studentsEntity1 = new StudentsEntity(
+        /*StudentsEntity studentsEntity1 = new StudentsEntity(
                 studentsEntity.getStudentId(),
                 studentsEntity.getStudentName(),
                 studentsEntity.getBirthdate(),
@@ -30,6 +30,7 @@ public class StudentsServiceImpl implements StudentsService {
         }
         else{
             return "fv";
-        }
+        }*/
+        return "";
     }
 }

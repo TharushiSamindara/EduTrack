@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+###Run type of frontend
+cd projectName
+npm install react-scripts --save
+npm start
